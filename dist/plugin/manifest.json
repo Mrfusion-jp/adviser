@@ -1,0 +1,85 @@
+{
+  "bundlePaths": {
+    "professionals": "assets/server/professionals.fb7cc32e.js",
+    "homepage": "assets/server/static.ffe7f5df.js"
+  },
+  "projectFilepaths": {
+    "templatesRoot": "src/templates",
+    "distRoot": "dist",
+    "hydrationBundleOutputRoot": "dist/hydration_templates",
+    "serverBundleOutputRoot": "dist/assets/server"
+  },
+  "bundlerManifest": {
+    "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js": {
+      "file": "assets/renderer/templateRenderer.js",
+      "src": "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js",
+      "isEntry": true,
+      "imports": [
+        "_index-a9aaf112.js"
+      ]
+    },
+    "src/templates/professionals.tsx": {
+      "file": "assets/server/professionals.fb7cc32e.js",
+      "src": "src/templates/professionals.tsx",
+      "isEntry": true,
+      "imports": [
+        "_jsx-runtime-272e7464.js",
+        "_index-a9aaf112.js",
+        "_index-0383fc84.js"
+      ],
+      "css": [
+        "assets/static/professionals-ed27e5c0.css"
+      ]
+    },
+    "dist/hydration_templates/professionals.tsx": {
+      "file": "assets/hydrate/professionals.27fb1193.js",
+      "src": "dist/hydration_templates/professionals.tsx",
+      "isEntry": true,
+      "imports": [
+        "_jsx-runtime-272e7464.js",
+        "_index-0383fc84.js",
+        "src/templates/professionals.tsx",
+        "_index-a9aaf112.js"
+      ]
+    },
+    "src/templates/static.tsx": {
+      "file": "assets/server/static.ffe7f5df.js",
+      "src": "src/templates/static.tsx",
+      "isEntry": true,
+      "imports": [
+        "_jsx-runtime-272e7464.js",
+        "_index-a9aaf112.js"
+      ]
+    },
+    "dist/hydration_templates/static.tsx": {
+      "file": "assets/hydrate/static.7d94476d.js",
+      "src": "dist/hydration_templates/static.tsx",
+      "isEntry": true,
+      "imports": [
+        "_jsx-runtime-272e7464.js",
+        "_index-0383fc84.js",
+        "src/templates/static.tsx",
+        "_index-a9aaf112.js"
+      ]
+    },
+    "_index-a9aaf112.js": {
+      "file": "assets/static/index-a9aaf112.js"
+    },
+    "_jsx-runtime-272e7464.js": {
+      "file": "assets/static/jsx-runtime-272e7464.js",
+      "imports": [
+        "_index-a9aaf112.js"
+      ]
+    },
+    "_index-0383fc84.js": {
+      "file": "assets/static/index-0383fc84.js",
+      "imports": [
+        "_index-a9aaf112.js"
+      ]
+    },
+    "src/templates/professionals.css": {
+      "file": "assets/static/professionals-ed27e5c0.css",
+      "src": "src/templates/professionals.css"
+    }
+  }
+}
